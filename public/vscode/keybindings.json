@@ -1,0 +1,28 @@
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "key": "ctrl+q",
+        "command": "-workbench.action.quickOpenView"
+    },
+    {
+        "key": "ctrl+q",
+        "command": "workbench.action.quickOpenView",
+        "when": "!terminalFocus"
+    },
+    {
+        "key": "ctrl+shift+l",
+        "command": "workbench.action.terminal.copyLastCommandOutput",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+shift+h",
+        "command": "runCommands",
+        "args": {
+            "commands": [
+                "workbench.action.terminal.selectAll",
+                "workbench.action.terminal.copyAndClearSelection"
+            ]
+        },
+        "when": "terminalFocus"
+    }
+]

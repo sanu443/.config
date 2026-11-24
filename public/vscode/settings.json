@@ -1,0 +1,92 @@
+
+{
+    // =========================
+    // Workbench / Appearance
+    // =========================
+    "workbench.colorTheme": "Dark Modern",
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.activityBar.location": "top",
+    "workbench.sideBar.location": "right",
+    "workbench.startupEditor": "none",
+    "workbench.editor.tabSizing": "shrink",
+    "workbench.reduceMotion": "on",
+    "vsicons.dontShowNewVersionMessage": true,
+
+    // =========================
+    // Window
+    // =========================
+    "window.titleBarStyle": "native",
+    "window.customTitleBarVisibility": "never",
+    "window.menuBarVisibility": "hidden",
+    "window.density.layout": "compact",
+    "window.density.editorTabHeight": "compact",
+    "window.zoomLevel": 0.9,
+    "window.restoreFullscreen": true,
+
+    // =========================
+    // Editor
+    // =========================
+    "editor.fontFamily": "Fira Code",
+    "editor.fontSize": 17,
+    "editor.fontLigatures": true,
+    "editor.formatOnPaste": true,
+    "editor.mouseWheelZoom": true,
+    "editor.minimap.enabled": false,
+    "editor.minimap.renderCharacters": false,
+    "editor.stickyScroll.enabled": false,
+    "editor.codeLens": false,
+    "editor.lightbulb.enabled": "off",
+    "editor.occurrencesHighlight": "off",
+    "editor.selectionHighlight": false,
+
+    // =========================
+    // Terminal
+    // =========================
+    "terminal.integrated.commandsToSkipShell": [
+        "workbench.view.explorer",
+        "workbench.action.toggleSidebarVisibility"
+    ],
+    "terminal.integrated.fontFamily": "Fira Code",
+    "terminal.integrated.fontSize": 17,
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "terminal.integrated.tabs.location": "left",
+    "terminal.integrated.enableMultiLinePasteWarning": "never",
+    "terminal.integrated.enableVisualBell": true,
+    "terminal.integrated.gpuAcceleration": "auto",
+    // "terminal.integrated.scrollback": 500,
+    "terminal.integrated.smoothScrolling": false,
+    "terminal.integrated.cursorBlinking": false,
+    "terminal.integrated.stickyScroll.enabled": false,
+    "terminal.integrated.initialHint": false,
+    "terminal.integrated.enablePersistentSessions": true,
+    "terminal.integrated.shellIntegration.decorationsEnabled": "never",
+    "terminal.integrated.suggest.enabled": false,
+    "terminal.integrated.tabs.enableAnimation": false,
+
+    // =========================
+    // Explorer / Files
+    // =========================
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "files.autoSave": "off",
+
+    // =========================
+    // Git
+    // =========================
+    "git.enableSmartCommit": true,
+
+    // =========================
+    // Chat
+    // =========================
+    "chat.disableAIFeatures": true,
+    "chat.agentHost.byokModels.enabled": true,
+
+    // =========================
+    // Security
+    // =========================
+    "security.workspace.trust.untrustedFiles": "prompt"
+    // =========================
+    // Unorganized
+    // =========================
+    
+}
