@@ -1,7 +1,7 @@
 ; ==========================================
 ; MOVE CURSOR ONLY WHEN SWITCHING MONITORS
 ; ==========================================
-#Requires AutoHotkey v2.0 AutoHotkey v2.0
+; #Requires AutoHotkey v2.0 AutoHotkey v2.0
 
 CoordMode "Mouse", "Screen"
 

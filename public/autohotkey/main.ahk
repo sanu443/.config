@@ -1,8 +1,9 @@
-#Requires AutoHotkey v2.0
-#SingleInstance Force
+; #Requires AutoHotkey v2.0
+; #SingleInstance Force
 
-; Additional modules
+;Private 
 #Include "..\..\private\autohotkey\main-private.ahk"
+; Additional modules
 #Include "modules\mouse-follow-focus.ahk"
 
 ; Window management
@@ -60,7 +61,8 @@
 
     ; Handle ZIP and RAR archives
     if (extension = "zip" || extension = "rar")
-    {
+
+        {
         ; Locate 7-Zip
         sevenZip := EnvGet("ProgramFiles") "\7-Zip\7z.exe"
 
